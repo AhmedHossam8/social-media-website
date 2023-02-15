@@ -22,4 +22,6 @@ class User(EntityMeta):
         return {
             "id": self.id.__str__(),
             "name": self.name.__str__(),
+            "email": self.email.__str__(),
+            "photo_url": self.photo_url.__str__()
         }

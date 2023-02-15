@@ -46,6 +46,7 @@ function login() {
         })
         .then(response => {
             if(response.status == 200){
+                localStorage.setItem("email", email);
                 window.location.href = "../html/Main.html"
             }
             formLabels[1].innerHTML = "Wrong Credentials";

@@ -1,5 +1,6 @@
 from typing import List, Optional
 import uuid
+import logging
 
 from fastapi import Depends
 from Models.UserModel import User
@@ -45,9 +46,10 @@ class AuthService:
         user = self.userRepository.get_by_email(email=email)
         
         if user:
-            print("User Already Exists")
+            logging.error("User Already Exists")
             return False
-        
+            
+        logging.info("Successfully fetched user")
         user = self.userRepository.create(user)
         return False if user is None else True
 
