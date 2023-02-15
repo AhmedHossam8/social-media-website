@@ -22,12 +22,16 @@ class UserRepository:
     def get(self, user: User) -> User:
         return self.db.get(
             User,
-            user.email,
+            user.id,
             options=[lazyload(Post.body)],
         )
 
     def get_by_email(self, email: str) -> User:
-        return self.db.get(
-            User,
-            email,
-        )
+        print(email)
+        return self.db.query(User).filter_by(email=email).first()
+
+    def create(self, user: User) -> User:
+        self.db.add(user)
+        self.db.commit()
+        self.db.refresh(user)
+        return user
