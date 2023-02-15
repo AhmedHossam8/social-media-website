@@ -1,0 +1,51 @@
+*{
+    font-family: 'Segoe UI';
+  }
+  
+  body{
+    background-image: url("../media/homeWallpaper.jpg");
+    background-size: cover;
+  }
+  
+  .textField{
+      border-radius: 7px;
+      margin-bottom: 10px;
+      padding-right: 100px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 100px;
+      background-color: white;
+      text-align: center;
+  }
+  .form {
+      border-radius: 20px;
+      box-shadow: 5px;
+      padding: 40px;
+      text-align: center;
+      margin: auto;
+      display: block;
+      margin-top: 150px;
+      width: 500px;
+      display: block;
+      background: #007cff;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  }
+  
+  .button {
+      color: black;
+      border-radius: 20px;
+      border-width: thin;
+      text-align: center;
+      padding: 12px;
+      display: block;
+      width:200px;
+      background: white;
+      text-decoration: none;
+      margin: auto;
+  }
+  
+  #signUpLink {
+    text-decoration: none;
+    color: white;
+  }

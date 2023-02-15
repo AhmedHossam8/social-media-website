@@ -1,0 +1,25 @@
+.card {
+    height: 200px;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+.input-group{
+    margin-top: 60px;
+    height: 100px;
+    padding-left: 30px;
+    padding-right: 200px;
+}
+
+.button {
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #007cff;
+    color: white;
+    float: right;
+    margin-right: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

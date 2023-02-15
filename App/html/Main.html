@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Space</title>
+    <link rel="stylesheet" href="../css/Main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <label class="navbar-brand" href="Main.html">My Space</label>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Main.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Home.html">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="profile-card d-flex">
+        <!-- profile card -->
+        <div class="card" style="width: 18rem;">
+            <img src="profile.jpeg" class="card-img-top" alt="Profile Picture">
+            <div class="card-body">
+                <a href="#" id="profileName" style="text-decoration: none;">
+                    <h5 class="card-title">Name</h5>
+                </a>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+            </div>
+        </div>
+
+        <!-- write new post box -->
+        <div style="width: 100%;">
+            <div class="input-group d-flex" style="width: 100%;">
+                <span class="input-group-text" style="background-color: #007cff; color: white;">Write a New Post</span>
+                <textarea class="form-control" aria-label="With textarea" placeholder="What's on your mind?"></textarea>
+            </div>
+
+            <div>
+                <button class="button" type="submit">Post</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

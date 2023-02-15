@@ -1,0 +1,47 @@
+* {
+    font-family: 'Segoe UI';
+  }
+  
+  .title {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 15px;
+  
+  }
+  
+  .form {
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-top: 16px;
+    width: 500px;
+    display: block;
+    background-color: #007cff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .button {
+    text-align: center;
+    padding: 12px;
+    margin: auto;
+    width: 200px;
+    background: white;
+    border-radius: 20px;
+  }
+  
+  .textField {
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    background-color: #f0f3f7;
+    text-align: center;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: black;
+  }
