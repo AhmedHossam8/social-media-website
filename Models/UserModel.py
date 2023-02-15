@@ -2,10 +2,8 @@ from sqlalchemy import (
     Column,
     Integer,
     PrimaryKeyConstraint,
-    ForeignKeyConstraint,
-    String,
+    String
 )
-from sqlalchemy.orm import relationship
 
 from Models.BaseModel import EntityMeta
 
